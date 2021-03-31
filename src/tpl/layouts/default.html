@@ -4,13 +4,16 @@
     {{> head }}
 </head>
 <body>
-
-<!--Header-->
-{{> header }}
-
-<!--Content-->
-{{> body }}
-
+<page class="page">
+    <!--Header-->
+    {{> header }}
+    <!--Content-->
+    <div class="content">
+    {{> body }}
+    </div>
+    <!--Content-->
+    {{> footer }}
+</page>
 
 <script src="assets/js/app.min.js" ></script>
 

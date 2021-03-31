@@ -29,7 +29,14 @@ body {
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/grid";
 /* Blocks */
+@import "blocks/page.scss";
 @import "blocks/header.scss";
 @import "blocks/logo.scss";
 @import "blocks/nav.scss";
 @import "blocks/lang.scss";
+@import "blocks/content.scss";
+@import "blocks/intro.scss";
+@import "blocks/btn.scss";
+@import "blocks/contacts.scss";
+@import "blocks/footer.scss";
+
